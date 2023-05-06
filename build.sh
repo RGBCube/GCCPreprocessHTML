@@ -8,5 +8,7 @@ rm -rf ./build
 mkdir ./build
 
 for html_file in $(find -name "*.html"); do
-  sed "/^#/d" <(process $html_file) > ./build/${html_file#./}
+  path=./build/${html_file#./}
+  mkdir $(dirname $path) 2> /dev/null
+  sed "/^#/d" <(process $html_file) > $path
 done
