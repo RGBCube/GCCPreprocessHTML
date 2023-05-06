@@ -6,9 +6,9 @@ the GCC (or your set CC) preprocessor to "compile" HTML.
 It works the same way as `include_str!` in Rust does.
 Simply run the script:
 
-``sh
+```sh
 ./build.sh
-``
+```
 
 And you will get your compiled HTML files in the `build` directory.
 
