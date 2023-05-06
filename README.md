@@ -1,16 +1,16 @@
 # GCC Preprocessor HTML Tests
 
-Nothing much - only some test scripts and stuff that uses
-the GCC (or your set CC) preprocessor to "compile" HTML.
+Preprocess HTML files with the C processor.
 
-It works the same way as `include_str!` in Rust does.
-Simply run the script:
+Simply run the build script:
 
 ```sh
 ./build.sh
 ```
 
 And you will get your compiled HTML files in the `build` directory.
+
+> Files starting with `_` are ignored!
 
 ## License
 
