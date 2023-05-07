@@ -1,9 +1,12 @@
 *
 
+!build/
+!build/example/
+
 !example/
 
 !.gitignore
 
 !*.html
 !*.md
-!*.sh
+!*.py

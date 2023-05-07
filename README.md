@@ -5,7 +5,7 @@ Preprocess HTML files with the C processor.
 Simply run the build script:
 
 ```sh
-./build.sh
+./build.py
 ```
 
 And you will get your compiled HTML files in the `build` directory.
