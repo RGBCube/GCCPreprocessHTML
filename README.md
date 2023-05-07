@@ -1,4 +1,4 @@
-# GCC Preprocessor HTML Tests
+# GCCPreprocessHTML
 
 Preprocess HTML files with the C processor.
 
